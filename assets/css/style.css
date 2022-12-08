@@ -55,3 +55,13 @@
   color: #e4433a;
 }
 /* header_part end */
+/* hero_part start */
+#hero_part .swiper {
+  width: 100%;
+  height: 80vh;
+}
+#hero_part .swiper-pagination,
+#hero_part .swiper-pagination span{
+    color: #fff;
+}
+/* hero_part end */
