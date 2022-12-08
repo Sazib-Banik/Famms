@@ -9,6 +9,10 @@
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {
+  /* common css start */
+  .theme_heading h3 {
+    font-size: 3rem;
+  }
   /* header_part start */
   .menu .nav-item .nav-link i {
     display: inline-block;
@@ -17,8 +21,19 @@
   #header_part .search_box i {
     left: 4%;
   }
+  /* shop_part start */
+  .shop_item {
+    padding: 45px 20px;
+  }
 }
 @media (min-width: 576px) and (max-width: 768px) {
+  /* common css start */
+  .theme_heading h3 {
+    font-size: 2.5rem;
+  }
+  .theme_heading h3::after {
+    top: 65px;
+  }
   /* header_part start */
   .menu .nav-item .nav-link i {
     display: inline-block;
@@ -29,6 +44,13 @@
   }
 }
 @media (min-width: 400px) and (max-width: 575px) {
+    /* common css start */
+  .theme_heading h3 {
+    font-size: 2rem;
+  }
+  .theme_heading h3::after {
+    top: 55px;
+  }
   /* header_part start */
   .menu .nav-item .nav-link i {
     display: inline-block;
