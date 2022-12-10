@@ -28,6 +28,9 @@
 }
 @media (min-width: 576px) and (max-width: 768px) {
   /* common css start */
+  #product_part, #shop_part {
+    padding: 60px 0;
+}
   .theme_heading h3 {
     font-size: 2.5rem;
   }
@@ -42,9 +45,17 @@
   #header_part .search_box i {
     left: 6%;
   }
+  /* shop_part start */
+  .shop_item,
+  .product_box {
+    margin-top: 40px;
+}
 }
 @media (min-width: 400px) and (max-width: 575px) {
-    /* common css start */
+  /* common css start */
+  #product_part, #shop_part {
+    padding: 60px 0;
+}
   .theme_heading h3 {
     font-size: 2rem;
   }
@@ -58,5 +69,9 @@
   }
   #header_part .search_box i {
     left: 6%;
+  }
+  /* product_part start */
+  .product_box {
+    margin-top: 30px;
   }
 }
