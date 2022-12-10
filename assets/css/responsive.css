@@ -28,9 +28,11 @@
 }
 @media (min-width: 576px) and (max-width: 768px) {
   /* common css start */
-  #product_part, #shop_part {
+  #add_part,
+  #product_part,
+  #shop_part {
     padding: 60px 0;
-}
+  }
   .theme_heading h3 {
     font-size: 2.5rem;
   }
@@ -49,13 +51,20 @@
   .shop_item,
   .product_box {
     margin-top: 40px;
-}
+  }
+  /* add_part start */
+  .add_part_left {
+    text-align: center;
+    margin-bottom: 40px;
+  }
 }
 @media (min-width: 400px) and (max-width: 575px) {
   /* common css start */
-  #product_part, #shop_part {
+  #add_part,
+  #product_part,
+  #shop_part {
     padding: 60px 0;
-}
+  }
   .theme_heading h3 {
     font-size: 2rem;
   }
@@ -73,5 +82,17 @@
   /* product_part start */
   .product_box {
     margin-top: 30px;
+  }
+  /* add_part start */
+  .add_part_left {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .add_part_right .swiper {
+    width: 190px;
+    height: 300px;
+  }
+  .add_part_right .swiper-slide {
+    border: 5px solid #f7f8f7;
   }
 }

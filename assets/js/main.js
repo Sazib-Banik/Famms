@@ -15,3 +15,12 @@ var swiper = new Swiper(".mySwiper", {
 });
 // Initialize AOS
 AOS.init();
+// add_part swiper initialize
+var swiper = new Swiper(".swiper_card", {
+  effect: "cards",
+  grabCursor: true,
+  autoplay: {
+    delay: 1000,
+    disableOnInteraction: false,
+  },
+});
