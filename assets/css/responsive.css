@@ -7,6 +7,10 @@
     font-size: 14px;
     font-weight: 500;
   }
+  /* shopping_cart_part start */
+  .price::after {
+    left: 57%;
+  }
 }
 @media (min-width: 768px) and (max-width: 992px) {
   /* common css start */
@@ -24,6 +28,10 @@
   /* shop_part start */
   .shop_item {
     padding: 45px 20px;
+  }
+  /* shopping_cart_part start */
+  .price::after {
+    left: 57%;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -56,6 +64,10 @@
   .add_part_left {
     text-align: center;
     margin-bottom: 40px;
+  }
+  /* shopping_cart_part start */
+  .price::after {
+    left: 59%;
   }
 }
 @media (min-width: 400px) and (max-width: 575px) {
