@@ -69,6 +69,11 @@
   .price::after {
     left: 59%;
   }
+  /* footer_part start */
+  .footer_logo,
+  .footer_link {
+    margin-bottom: 35px;
+  }
 }
 @media (min-width: 400px) and (max-width: 575px) {
   /* common css start */
@@ -106,5 +111,10 @@
   }
   .add_part_right .swiper-slide {
     border: 5px solid #f7f8f7;
+  }
+  /* footer_part start */
+  .footer_logo,
+  .footer_link {
+    margin-bottom: 35px;
   }
 }

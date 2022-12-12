@@ -6,12 +6,14 @@
   box-sizing: border-box;
 }
 /* common css start */
+
 #blog_part,
 #add_part,
 #product_part,
 #shop_part {
   padding: 70px 0;
 }
+
 #blog_part,
 #product_part {
   background: #f8f8f8;
@@ -90,7 +92,7 @@
 /* hero_part start */
 #hero_part .swiper {
   width: 100%;
-  height: 80vh;
+  height: 85vh;
 }
 #hero_part .swiper-pagination,
 #hero_part .swiper-pagination span {
@@ -361,4 +363,62 @@
 }
 .blog_details a:hover i {
   color: #e4433a;
+}
+/* footer_part start */
+#footer_part {
+  background: #f3f2f2;
+}
+.footer_top {
+  padding: 70px;
+}
+.footer_logo img {
+  width: 60px;
+  height: 60px;
+}
+.footer_link h4 {
+  font-size: 26px;
+  font-weight: 500;
+  color: #e4433a;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.footer_link ul {
+  padding-left: 0;
+}
+.footer_link ul li {
+  list-style: none;
+  padding: 5px 0;
+  transition: 0.3s;
+}
+.footer_link ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #002c3e;
+}
+.footer_link ul li a i {
+  margin-right: 10px;
+}
+.footer_link ul li:hover a {
+  color: #e4433a;
+}
+.page_link ul li a {
+  text-transform: capitalize;
+}
+.footer_photos_link img {
+  width: 70px;
+  height: 70px;
+}
+.footer_bottom {
+  text-align: center;
+  background: #002c3e;
+  padding: 15px 0;
+  color: #ffffff;
+}
+.footer_bottom p {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+.footer_bottom p img {
+  width: 30px;
+  height: 30px;
 }
