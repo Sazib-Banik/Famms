@@ -6,11 +6,13 @@
   box-sizing: border-box;
 }
 /* common css start */
+#blog_part,
 #add_part,
 #product_part,
 #shop_part {
   padding: 70px 0;
 }
+#blog_part,
 #product_part {
   background: #f8f8f8;
 }
@@ -22,6 +24,7 @@
   font-size: 3.5rem;
   font-weight: bold;
   color: #002c3e;
+  text-transform: capitalize;
 }
 .theme_heading h3::after {
   position: absolute;
@@ -311,5 +314,51 @@
   content: "\24";
   left: 55%;
   top: 0;
+  color: #e4433a;
+}
+/* blog_part start */
+.single_blog_item {
+  padding: 30px;
+  background: #ffffff;
+  margin-top: 45px;
+}
+.blog_img img {
+  max-height: 205px;
+}
+.blog_details {
+  padding: 15px 0px 10px;
+}
+.blog_details h4 {
+  font-size: 20px;
+  color: #002c3e;
+}
+.blog_details p {
+  font-size: 16px;
+  color: #002c3e;
+  text-align: justify;
+}
+.blog_details a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #002c3e;
+  display: inline-block;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+.blog_details a i {
+  font-size: 14px;
+}
+.blog_update span {
+  margin-right: 25px;
+}
+.blog_update span i {
+  margin-right: 5px;
+}
+.blog_details a:hover {
+  color: #e4433a;
+}
+.blog_details a:hover i {
   color: #e4433a;
 }
